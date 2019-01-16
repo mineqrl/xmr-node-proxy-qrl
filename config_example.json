@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "hostname": "pool.mineqrl.net",
+      "port": 3333,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 100,
+      "username": "your_wallet",
+      "password": "qrl_mineqrl",
+      "keepAlive": true,
+      "algo": "cn/1",
+      "blob_type": "cryptonote",
+      "default": true
+    }
+  ],
+  "listeningPorts": [
+    {
+      "port": 8900,
+      "ssl": false,
+      "diff": 5000
+    },
+    {
+      "port": 8443,
+      "ssl": false,
+      "diff": 5000
+    },
+    {
+      "port": 4545,
+      "ssl": false,
+      "diff": 10000
+    }
+  ],
+  "bindAddress": "0.0.0.0",
+  "developerShare": 0,
+  "daemonAddress": "127.0.0.1:18081",
+  "accessControl": {
+    "enabled": false,
+    "controlFile": "accessControl.json"
+  },
+  "httpEnable": false,
+  "httpAddress": "127.0.0.1",
+  "httpPort": "8081",
+  "httpUser": "",
+  "httpPass": "",
+  "addressWorkerID": false,
+  "minerInactivityTime": 120,
+  "keepOfflineMiners": 0,
+  "refreshTime": 30,
+  "theme": "light",
+  "coinSettings": {
+    "xmr":{
+      "minDiff": 100,
+      "maxDiff": 300000,
+      "shareTargetTime": 15
+    }
+  }
+}
