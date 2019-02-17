@@ -65,10 +65,10 @@ cd xmr-node-proxy
 
 
 ## Manual Deployment
-## Pulling xmr-node-proxy repository
+## Cloning xmr-node-proxy repository
 
 ```bash
-git pull https://github.com/mineqrl/xmr-node-proxy-qrl.git xmr-node-proxy
+git clone https://github.com/mineqrl/xmr-node-proxy-qrl.git xmr-node-proxy
 ```
 
 ## Deployment via Docker on Linux OS
