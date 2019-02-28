@@ -183,5 +183,6 @@ If you'd like to make a one time donation, the addresses are as follows:
 ## Known Working Pools
 
 * [mineqrl.net](https://mineqrl.net)
+* [miningocean](https://qrl.miningocean.org)
 
 If you'd like to have your pool added, please make a pull request here, or contact Mineqrl.net team at support@mineqrl.net!
